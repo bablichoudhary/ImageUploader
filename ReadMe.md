@@ -42,4 +42,19 @@ This project is a **Single Page Application (SPA)** built using **Lit Web Compon
 - **Storybook**
 - `@vaadin/router` for routing
 
+## Deployment Instructions
+
+This project is deployed on **Cloudflare Pages**.
+
+### Deploy Steps:
+
+1. Push your code to GitHub.
+2. Go to [Cloudflare Pages](https://pages.cloudflare.com).
+3. Select **GitHub repository**.
+4. Choose:
+   - Framework: **Vite**
+   - Build Command: `npm run build`
+   - Output directory: `dist`
+5. Done
+
 Thank you for reviewing my submission!
