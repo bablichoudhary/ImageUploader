@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T-Shirt Customizer</title>
+    <link rel="stylesheet" href="./src/index.css" />
+    <link rel="stylesheet" href="/src/styles/themes.css" />
+    <link rel="stylesheet" href="/src/styles/style.css" />
+
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <div id="outlet"></div>
+    <script type="module">
+      import { setupRouter } from "./src/router.js";
+      setupRouter(document.getElementById("outlet"));
+    </script>
+  </body>
+</html>

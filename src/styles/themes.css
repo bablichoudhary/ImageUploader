@@ -1,0 +1,26 @@
+body.theme-default {
+  --primary: #333;
+  --primary-dark: #555;
+  --bg: #ffffff;
+  --text: #222;
+}
+
+body.theme-dark {
+  --primary: #66ccff;
+  --primary-dark: #3399cc;
+  --bg: #121212;
+  --text: #f0f0f0;
+}
+
+body.theme-pastel {
+  --primary: #ffb6b9;
+  --primary-dark: #ff8a8a;
+  --bg: #fff0f5;
+  --text: #333;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background 0.3s ease, color 0.3s ease;
+}
